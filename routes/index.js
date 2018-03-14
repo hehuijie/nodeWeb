@@ -14,4 +14,8 @@ router.get('/login', function(req, res, next) {
   res.render('login', { title: '登录' });
 });
 
+router.get('/imageShow', function(req, res, next) {
+  res.render('imageShow', { title: '图片' });
+});
+
 module.exports = router;
