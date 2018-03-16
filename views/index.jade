@@ -19,3 +19,30 @@ block content
                 else
                     a.login(href='/login') 登录
                     a.register(href='/reg') 立即注册
+        section.intro.marginTop-10
+            p node+express是第一个搭建的web项目
+            p hello world <b>node+express</b>
+            video#videoMain(src='images/123.ogg' width='360px',height='220px' controls='controls' poster='images/123.jpg') 您的浏览器不支持视频格式
+            button.popup(type='button' onclick='butShow()') 弹层显示
+            - users = ['sally','joseph','michael','sanjay']
+            ul
+                each user in users
+                    li #{user}
+
+            div#popupMargin.popupMargin.hide
+                div.popupShow
+                    table
+                        thead
+                            tr
+                                th  操作
+                                th  姓名
+                                th  年级
+                        tbody
+                            tr
+                                td  添加
+                                td  张宝宝
+                                td  12岁
+                            tr
+                                td  添加
+                                td  宋宝宝
+                                td  13岁

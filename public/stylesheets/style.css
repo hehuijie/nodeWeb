@@ -71,7 +71,7 @@ a {
     width: 100%;
     margin:0 auto;
     border-radius: 5px;
-    height: 300px;
+    min-height: 300px;
     background:#F5F5F5 ;
 
 }
@@ -267,4 +267,40 @@ a {
     background: #DFF0D8;
     line-height: 30px;
     color: #3C7668;
+}
+.containerImg{
+    width:100%;
+    height:100%;
+}
+.containerImg img{
+    width:100%;
+}
+button.popup{
+    height:30px;
+    line-height:28px;
+    border:1px solid #333;
+    padding:0px 5px;
+    border-radius:5px;
+    cursor:pointer;
+}
+.popupMargin{
+    position:absolute;
+    top:0px;
+    left:0px;
+    background:rgba(152,46,53,0.5);
+    width:100%;
+    height:100%;
+}
+.popupShow{
+    position:absolute;
+    transform:translate(50%,50%);
+    width:600px;
+    background:#fff;
+}
+/* 公共style */
+.hide{
+    display:none;
+}
+.marginTop-10{
+    margin-top:10px;
 }
